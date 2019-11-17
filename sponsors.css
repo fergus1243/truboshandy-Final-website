@@ -1,0 +1,123 @@
+img {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 230px;
+}
+
+/* Padding below titles */
+.padding {
+    padding-bottom:1cm;
+}
+  
+.padding2 {
+    padding-bottom:1cm;
+}
+
+/* Underlines 'Membership Options' */
+.title {
+    text-decoration: underline;
+}
+
+/* Form CSS */
+.form-group {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 33%;
+}
+
+/* Padding above form */
+.form-text {
+    padding-top: 1cm;
+}
+
+.container-fluid {
+    padding-bottom: 117px;
+}
+
+/* EUANS ADDED CSS BELOW*/
+
+/* ////////////////////////////////////////////////// */
+/* Menu Content CSS  */
+.menu-content>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu-content>ul>li {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.menu-content>ul>li a {
+    color: #5252529d
+}
+
+.menu-content li a:hover {
+    color: #d6d6d6bd
+}
+/* Image Sizing CSS */
+.logo {
+    width: 110px;
+    height: 80px;
+   float: right;
+   padding: 5px;
+}
+
+/* Main Section */
+.column-link{
+    color: black 
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/* Menu Dropdown CSS */
+.menu-content {
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.collapsible-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-bottom: 5px solid rgba(95, 95, 95, 0.411);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Menu Button */
+.collapsible-menu label {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+    display: block;
+    cursor: pointer;
+    background: url() no-repeat left center;
+    padding: 10px 0 10px 30px;
+}
+
+input#menu {
+    display: none;
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 30px;
+}
+
+/* Toggle Effect */
+input:checked ~ label {
+    background-image: url(close.png);
+}
+
+input:checked ~ .menu-content {
+    max-height: 100%;
+}

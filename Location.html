@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <!-- Title -->
+   
+    <title>TurboShandy - Home</title>
+
+<!-------------------------------------------------->
+    
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+crossorigin="anonymous">
+
+<!--Link to CSS Files-->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Body Start -->
+<body>
+
+<!-- Header Start-->
+<head>
+
+<!-- Nav Bar Start -->
+
+<!-- Logo -->
+
+<a href= "Home.html">
+<img id= "logo" src="Beer Logo Image.jpg" 
+href= "home.html" alt="TurboShandy Beer Logo" class = "logo"> 
+</a>
+
+<div class="collapsible-menu">
+<div class="menu-content">
+<ul>
+    <li><a href="#"></a>Home</li>
+     <li><a href="#"></a>Services</li>
+    <li><a href="#"></a>Projects</li>
+    <li><a href="#"></a>About</li>
+    <li><a href="#"></a>Blog</li>
+    <li><a href="#"></a>Contacts</li>
+    </ul>
+</div>
+</div>
+    <body>
+    <div class="collapsible-menu">
+    <input type="checkbox" id="menu">
+    <label for="menu">Menu</label>
+    <div class="menu-content">
+<ul>
+    <!-- Home -->
+    <li><a class="nav-link nav-item" href="Home.html">Home</a></li>
+    <!-- About -->
+    <li><a class="nav-link nav-item" href="about.html">About</a></li>
+    <!-- Events -->
+    <li><a class="nav-link nav-item" href="events.html">Events</a></li>
+    <!-- Membership -->
+    <li><a class="nav-link nav-item" href="Membership.html">Membership</a></li>
+    <!-- Gallery -->
+    <li><a class="nav-link nav-item" href="Gallery.html">Gallery</a></li>
+    <!-- Location -->
+    <li><a class="nav-link nav-item" href="Location.html">Location</a></li>
+    <!-- Members -->
+    <li><a class="nav-link nav-item" href="Members.html">Members</a></li>
+    <!-- Sponsors -->
+    <li><a class="nav-link nav-item" href="Sponsors.html">Sponsors</a></li>
+    <!-- Visit -->
+    <li><a class="nav-link nav-item" href="Visit.html">Visit</a></li>
+    <!-- Sign Up -->
+    <li><a class="nav-link nav-item" href="Sign Up.html">Sign Up</a></li>
+</ul>
+</div>
+</div>
+</body>
+
+<nav>
+<!-- Home Page -->
+</nav>
+</header>
+
+<!-- Main Start-->
+<main>
+    <h1>TurboShandy</h1>
+    <h2 class = "lead"> <strong> A Craft Beer Society </strong> </h2>
+    <h1>Weekly meetings are held at the BreewDog Aberdeen pub.</h1>
+
+<!-- Box Fluid Container  -->
+
+
+
+  
+  <!-- END MAIN -->
+</main>
+
+
+
+<div id="map"></div>
+<script>
+// Initialize and add the map
+function initMap() {
+// The location of Uluru
+var uluru = {lat: 57.150, lng:-2.098};
+// The map, centered at Uluru
+var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 4, center: uluru});
+// The marker, positioned at Uluru
+var marker = new google.maps.Marker({position: uluru, map: map});
+}
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr-3pRq_M1CLoa4V0-U4FXPkMkJnC6aSo&callback=initMap">
+</script>
+
+
+<!-- Footer Start-->
+<footer>
+<p class= "copyright" (C) 2019 Teodor Milchev></p>
+</footer>
+<!-- Footer End -->
+</body>
+</html>
