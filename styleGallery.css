@@ -1,0 +1,191 @@
+/* Just Background */
+body{
+    background-color: rgba(102, 102, 102, 0.384);
+}
+
+head{
+    background-color: green;
+}
+/* 3 column background */
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgba(95, 95, 95, 0.411);
+    height: 8px;
+
+}
+
+/* Footer Copyright */
+footer{
+    background-color: rgba(95, 95, 95, 0.411);
+    height: 8px;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menu Content CSS  */
+.menu-content>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu-content>ul>li {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.menu-content>ul>li a {
+    color: #5252529d
+}
+
+.menu-content li a:hover {
+    color: #d6d6d6bd
+}
+
+/* Title allignment */
+
+h1, h2{
+    text-align: center;
+
+}
+
+/* Image Sizing CSS */
+.logo {
+    width: 110px;
+    height: 80px;
+   float: right;
+   padding: 5px;
+}
+
+/* Main Section */
+.column-link{
+    color: black 
+}
+
+/* Text Styling */
+h1, h2 {
+    font-family: cursive;
+}
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/* Menu Dropdown CSS */
+.menu-content {
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.collapsible-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-bottom: 5px solid rgba(95, 95, 95, 0.411);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Menu Button */
+.collapsible-menu label {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+    display: block;
+    cursor: pointer;
+    background: url() no-repeat left center;
+    padding: 10px 0 10px 30px;
+}
+
+input#menu {
+    display: none;
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 30px;
+}
+
+/* Toggle Effect */
+input:checked ~ label {
+    background-image: url(close.png);
+}
+
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
